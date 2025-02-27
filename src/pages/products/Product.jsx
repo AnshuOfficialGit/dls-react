@@ -1,0 +1,157 @@
+const Product = () => {
+  return (
+    <>
+      <header class="works-header fixed-slider hfixd valign sub-bg">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-9 static">
+              <div class="capt mt-50">
+                <div class="parlx text-center">
+                  <h1 class="color-font">amazing works</h1>
+                  <p>
+                    Creativity involves breaking out of expected & repeatable
+                    patterns in order to look at things in different way than
+                    ever before.
+                  </p>
+                </div>
+                <div class="bactxt custom-font valign">
+                  <span class="full-width">Works</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section className="portfolio three-column section-padding pb-70">
+        <div className="container">
+          <div className="row">
+            {/* filter links */}
+            <div className="filtering text-center mb-30 col-12">
+              <div className="filter">
+                <span data-filter="*" className="active">
+                  All
+                </span>
+                <span data-filter=".brand">Branding</span>
+                <span data-filter=".web">Mobile App</span>
+                <span data-filter=".graphic">Creative</span>
+              </div>
+            </div>
+            {/* gallery */}
+            <div className="gallery full-width">
+              {/* gallery item */}
+              <div className="col-lg-4 col-md-6 items graphic">
+                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                  <a href="project-details2.html">
+                    <img
+                      src="/assets/img/portfolio/portfolio/1/1.jpg"
+                      alt="image"
+                    />
+                  </a>
+                </div>
+                <div className="cont">
+                  <h6>Creativity Demand</h6>
+                  <span>
+                    <a href="works2.html#0">Design</a>,
+                    <a href="works2.html#0">WordPress</a>
+                  </span>
+                </div>
+              </div>
+              {/* gallery item */}
+              <div className="col-lg-4 col-md-6 items web">
+                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                  <a href="project-details2.html">
+                    <img
+                      src="/assets/img/portfolio/portfolio/1/2.jpg"
+                      alt="image"
+                    />
+                  </a>
+                </div>
+                <div className="cont">
+                  <h6>Through The Breaking</h6>
+                  <span>
+                    <a href="works2.html#0">Design</a>,
+                    <a href="works2.html#0">WordPress</a>
+                  </span>
+                </div>
+              </div>
+              {/* gallery item */}
+              <div className="col-lg-4 col-md-6 items brand">
+                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                  <a href="project-details2.html">
+                    <img
+                      src="/assets/img/portfolio/portfolio/1/3.jpg"
+                      alt="image"
+                    />
+                  </a>
+                </div>
+                <div className="cont">
+                  <h6>Create With Creatives</h6>
+                  <span>
+                    <a href="works2.html#0">Design</a>,
+                    <a href="works2.html#0">WordPress</a>
+                  </span>
+                </div>
+              </div>
+              {/* gallery item */}
+              <div className="col-lg-4 col-md-6 items brand">
+                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                  <a href="project-details2.html">
+                    <img
+                      src="/assets/img/portfolio/portfolio/1/4.jpg"
+                      alt="image"
+                    />
+                  </a>
+                </div>
+                <div className="cont">
+                  <h6>Blast From The Past</h6>
+                  <span>
+                    <a href="works2.html#0">Design</a>,
+                    <a href="works2.html#0">WordPress</a>
+                  </span>
+                </div>
+              </div>
+              {/* gallery item */}
+              <div className="col-lg-4 col-md-6 items web">
+                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                  <a href="project-details2.html">
+                    <img
+                      src="/assets/img/portfolio/portfolio/1/5.jpg"
+                      alt="image"
+                    />
+                  </a>
+                </div>
+                <div className="cont">
+                  <h6>See It Yourself</h6>
+                  <span>
+                    <a href="works2.html#0">Design</a>,
+                    <a href="works2.html#0">WordPress</a>
+                  </span>
+                </div>
+              </div>
+              {/* gallery item */}
+              <div className="col-lg-4 col-md-6 items graphic">
+                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+                  <a href="project-details2.html">
+                    <img
+                      src="/assets/img/portfolio/portfolio/1/6.jpg"
+                      alt="image"
+                    />
+                  </a>
+                </div>
+                <div className="cont">
+                  <h6>Energies of Love</h6>
+                  <span>
+                    <a href="works2.html#0">Design</a>,
+                    <a href="works2.html#0">WordPress</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Product;
