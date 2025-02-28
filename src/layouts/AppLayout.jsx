@@ -8,10 +8,8 @@ const AppLayout = () => {
     <>
       <Nav />
       {location.pathname === "/" ? <Header /> : ""}
-      <div className="main-content">
-        <Outlet />
-        <Footer />
-      </div>
+      <Outlet />
+      <Footer />
     </>
   );
 };
